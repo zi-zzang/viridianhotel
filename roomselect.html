@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viridian Hue Hotel</title>
+    <link rel="stylesheet" href="css/hotel_header.css" />
+    <link rel="stylesheet" href="css/hotel_footer.css" />
+    <link rel="stylesheet" href="css/hotel_roomselect.css" />
+    <link rel="stylesheet" href="css/hotel_reset.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/main.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="c_header">
+        <h1>
+          <a href="index.html" class="main_logo bgico">로고</a>
+        </h1>
+        <button class="all_menu_show bgico">전체메뉴</button>
+        <a href="reservation.html" class="btn_reserv bgico">예약</a>
+      </header>
+      <div class="navbox">
+        <div class="n_header">
+          <button class="btn_close"><img src="img/아이콘원본/btn_close.svg" alt="닫기" /></button>
+          <div class="u_member">
+            <a href="#" class="u_login">로그인</a>
+            <a href="#" class="u_join">멤버십 회원가입</a>
+          </div>
+          <p class="title">비리디안 휴</p>
+          <div class="btns">
+            <button class="btn_reserve">예약</button>
+            <button class="btn_reserve_confirm">예약 확인</button>
+          </div>
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="index.html">메인</a>
+                <ul>
+                  <li>
+                    <a href="package.html"
+                      >패키지<i class="open"><img src="img/아이콘원본/btn_nav_down.svg" alt="열기" /></i
+                    ></a>
+                    <ul class="sub">
+                      <li><a href="#">Born of Nature Package</a></li>
+                      <li><a href="#">Tea Time Package</a></li>
+                      <li><a href="#">Work at Leisure Package</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >객실<i class="open"><img src="img/아이콘원본/btn_nav_down.svg" alt="열기" /></i
+                    ></a>
+                    <ul class="sub">
+                      <li><a href="#">Viridian 패키지</a></li>
+                      <li><a href="#">비즈니스 디럭스</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="ready.html"
+                      >부대시설<i class="open"><img src="img/아이콘원본/btn_nav_down.svg" alt="열기" /></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="facil.html">다이닝</a>
+                  </li>
+                  <li>
+                    <a href="ready.html">갤러리</a>
+                  </li>
+                  <li>
+                    <a href="membership.html">멤버십</a>
+                  </li>
+                  <li>
+                    <a href="ready.html">호텔소개</a>
+                  </li>
+                  <li>
+                    <a href="ready.html">고객문의</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="m_promotion">
+          <div class="promotion">회원 전용 프로모션</div>
+        </div>
+        <div class="n_footer">
+          <a href="tel:02-000-0000" class="call"> 고객센터 02-000-0000 </a>
+          <ul class="language">
+            <li><a href="#">한국어</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">中國語</a></li>
+            <li><a href="#">日本語</a></li>
+            <li><a href="#">français</a></li>
+          </ul>
+          <img src="img/아이콘원본/main_logo.svg" alt="" />
+        </div>
+        <div class="blackbox"></div>
+      </div>
+      <h3 class="roomtit">객실 선택</h3>
+      <section class="sec1">
+        <h3 class="hide">객실</h3>
+        <div class="date">
+          <p>2022.07.01 금 - 2022.07.03 일</p>
+          <p>2박</p>
+        </div>
+        <p>성인 2</p>
+      </section>
+      <section class="sec2">
+        <div class="roomimg">
+          <a href="roomoption.html"><img src="img/room1.png" alt="Viridian 패키지" /></a>
+          <i class="heart"></i>
+        </div>
+        <div class="roomtxt">
+          <div class="txt">
+            <p>Viridian 패키지</p>
+            <p>연중 예약 가능</p>
+            <p>KRW 300,000~</p>
+            <p>1박 / 세금별도</p>
+          </div>
+          <div class="detail">
+            <p><u>세부 정보</u></p>
+          </div>
+        </div>
+      </section>
+      <section class="sec3">
+        <div class="roomimg">
+          <a href="roomoption.html"><img src="img/room3.png" alt="비즈니스 디럭스" /></a>
+          <i class="heart"></i>
+        </div>
+        <div class="roomtxt">
+          <div class="txt">
+            <p>Viridian 패키지</p>
+            <p>연중 예약 가능</p>
+            <p>KRW 300,000~</p>
+            <p>1박 / 세금별도</p>
+          </div>
+          <div class="detail">
+            <p><u>세부 정보</u></p>
+            <div class="detailbox">
+              <div class="roominfo">
+                <p class="r_tit">객실 정보</p>
+                <p class="r_txt">
+                  투숙인원 2명<br />
+                  전망 시티뷰<br />
+                  객실면적 50㎡<br />
+                  체크인/체크아웃 15:00/11:00
+                </p>
+                <p class="r_tit">어메니티</p>
+                <button class="close">닫기</button>
+                <div class="r_txt">
+                  <p>일반</p>
+                  <p>
+                    55" HD TV / 60"HD TV / 미니바 / 티포트 / 금고/<br />
+                    사무용 데스크 (문구류 포함) / 전화기 / 체중계 / 우산 / 구둣주걱
+                  </p>
+                </div>
+                <div class="r_txt">
+                  <p>욕실</p>
+                  <p>세면대 2개 / 면도기 / 면봉 / 비데 / 샤워 캡 / 슬리퍼 /<br />욕실용품 (Diptyque) / 욕조 / 목욕 가운 / 헤어드라이어 / 1회용 칫솔 및 치약</p>
+                </div>
+                <div class="r_txt">
+                  <p>기타</p>
+                  <p>
+                    케이블 위성 TV 채널 / 무료 생수 1일 2병 / 커피 및 티 메이커 /<br />
+                    무료 일간 신문 / 옷솔 / 무료 다림질 서비스 (1일 2점)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <ul class="f_legal">
+          <li>고객문의</li>
+          <li>법적고지확인</li>
+          <li>사이트맵</li>
+        </ul>
+        <ul class="f_menu">
+          <li><a href="#">비리디안휴 소개</a></li>
+          <li><a href="#">PC버전</a></li>
+          <li><a href="#">찾아오시는 길</a></li>
+          <li><a href="#">공지사항</a></li>
+        </ul>
+        <p class="add">
+          서울시 중구 소공로 123 대표전화 02-123-1234<br />
+          사업자등록번호 111-11-11111 통신판매신고번호 중구 1111호
+        </p>
+        <ul class="sns">
+          <li><a href="#" class="fa bgico">페이스북</a></li>
+          <li><a href="#" class="in bgico">인스타그램</a></li>
+          <li><a href="#" class="tw bgico">트위터</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+  <script>
+    $(function () {
+      $('i.heart').click(function () {
+        $(this).toggleClass('active');
+      });
+      $('.detail p').click(function () {
+        $('.detailbox').fadeIn();
+      });
+      $('.roominfo button.close').click(function () {
+        $('.detailbox').fadeOut();
+      });
+    });
+  </script>
+</html>
