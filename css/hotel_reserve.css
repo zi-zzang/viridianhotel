@@ -1,0 +1,94 @@
+section {
+  margin: 16px;
+}
+section.sec_reservation {
+  position: relative;
+}
+section.sec_reservation form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5px;
+  background-color: #e5dfce;
+  height: 92px;
+  margin-top: 138px;
+}
+section.sec_reservation form label {
+  display: block;
+}
+section h3 {
+  text-align: left;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+.roomage {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-bottom: 5px;
+  background-color: #e5dfce;
+  height: 92px;
+  margin-top: 15px;
+  align-items: center;
+}
+.roomage input {
+  width: 16px;
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+}
+.roomage input[placeholder='0'] {
+  font-size: 20px;
+  margin: 0 24px;
+}
+.btn_minus {
+  width: 18px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.btn_plus {
+  width: 18px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.sec_reservation button img.btn_modal {
+  position: absolute;
+  top: 0px;
+  right: 46px;
+  width: 18px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.modal_txt {
+  position: absolute;
+  top: -30px;
+  right: 18px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #707070;
+  padding: 3px;
+  display: none;
+}
+button.room_search {
+  width: 100%;
+  background-color: #155110;
+  color: #fff;
+  height: 41px;
+  margin-top: 116px;
+  margin-bottom: 127px;
+  font-size: 20px;
+}
+.chatbot {
+  position: fixed;
+  background-position: -28px -25px;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  bottom: 150px;
+  right: 0px;
+  text-indent: -9999px;
+  /* display: none; */
+}
+
+/* section 끝 */

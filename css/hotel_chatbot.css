@@ -1,7 +1,13 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+}
 .chatbotbox {
   background-color: #fff;
   margin: 0 15px;
   border-radius: 20px;
+  height: 83vh;
+  position: relative;
 }
 .chatbotbox .titbox {
   background-color: #155110;
@@ -29,7 +35,7 @@
 }
 .chatbotbox .friend {
   text-align: left;
-  padding: 0 17px;
+  padding: 0 15px;
 }
 .chatbotbox .namebox {
   position: relative;
@@ -52,36 +58,32 @@
   background-color: #f3eadb;
   border-radius: 20px;
   padding: 20px;
+  height: 350px;
 }
 .chatbotbox .friend .con-friend p {
   line-height: 1;
-  padding: 20px 0;
+  padding: 10px 0;
   font-size: 14px;
 }
 .chatbotbox .friend .con-friend a {
   width: 100%;
   text-align: center;
   background-color: #fff;
-  margin: 7px 0;
+  margin: 5px 0;
   border-radius: 5px;
 }
 .chatbotbox .me {
   text-align: right;
   padding: 20px;
 }
-.chatbotbox .me p {
-  border-radius: 10px;
-  background-color: #f3eadb;
-  display: inline-block;
-  padding: 5px;
-  width: 40%;
-  text-align: center;
-}
+
 .chatbotbox .sendbox {
   width: 100%;
   display: flex;
   justify-content: space-around;
   padding: 30px 0;
+  position: absolute;
+  bottom: 0px;
 }
 .chatbotbox .sendbox button.btn_plus {
   background-image: url(../img/아이콘원본/btn_square_plus.svg);
@@ -96,6 +98,7 @@
 .chatbotbox .sendbox input {
   border-radius: 10px;
   width: 100%;
+  padding: 0 5px;
 }
 .chatbotbox .sendbox button.send {
   background-image: url(../img/아이콘원본/btn_up.svg);

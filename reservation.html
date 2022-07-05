@@ -7,7 +7,7 @@
     <title>Viridian Hue Hotel</title>
     <link rel="stylesheet" href="css/hotel_header.css" />
     <link rel="stylesheet" href="css/hotel_footer.css" />
-    <link rel="stylesheet" href="css/hotel_main.css" />
+    <link rel="stylesheet" href="css/hotel_reserve.css" />
     <link rel="stylesheet" href="css/hotel_reset.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script/main.js"></script>
@@ -19,7 +19,7 @@
           <a href="index.html" class="main_logo bgico">로고</a>
         </h1>
         <button class="all_menu_show bgico">전체메뉴</button>
-        <button class="btn_reserv bgico">예약</button>
+        <a href="reservation.html" class="btn_reserv bgico">예약</a>
       </header>
       <div class="navbox">
         <div class="n_header">
@@ -96,10 +96,10 @@
           </ul>
           <img src="img/아이콘원본/main_logo.svg" alt="" />
         </div>
+        <div class="blackbox"></div>
       </div>
       <section class="sec_reservation">
-        <img src="img/main_bg.png" alt="메인배경" />
-        <h2>빠른 예약</h2>
+        <h2 class="hide">예약</h2>
         <form action="#">
           <div class="in">
             <label for="checkin">체크인</label>
@@ -111,52 +111,33 @@
           </div>
         </form>
         <span class="hide">몇박?</span>
-        <h3>객실</h3>
+        <h3 class="hide">객실</h3>
         <div class="roomage">
           <div class="room_adult">
             <p>성인</p>
-            <button class="btn_minus bgico">축소</button><input type="text" placeholder="0" disabled />
-            <button class="btn_plus bgico">추가</button>
+            <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
+            <input class="client" type="number" placeholder="0" disalbed />
+            <button class="b_control bplus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
           </div>
           <div class="room_children">
             <p>어린이</p>
-            <button class="btn_minus bgico">축소</button><input type="text" placeholder="0" disabled />
-            <button class="btn_plus bgico">추가</button>
+            <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
+            <input class="client" type="number" placeholder="0" disabled />
+            <button class="b_control bplus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
           </div>
           <div class="room_baby">
             <p>유아</p>
-            <button class="btn_minus bgico">축소</button><input type="text" placeholder="0" disabled />
-            <button class="btn_plus bgico">추가</button>
+            <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
+            <input class="client" type="number" placeholder="0" disabled />
+            <button class="b_control bminus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
+            <button class="b_control bplus"><img src="img/아이콘원본/btn_question.png" alt="모달" class="btn_modal" /></button>
+            <p class="modal_txt">36개월 이하</p>
           </div>
-          <button class="btn_modal bgico">?</button>
-          <p class="modal_txt">36개월 이하</p>
         </div>
-        <button class="room_search">객실검색</button>
-        <button class="chatbot bgico">챗봇</button>
+        <button class="room_search">객실 검색</button>
+        <a href="chatbot.html" class="chatbot bgico">챗봇</a>
       </section>
-      <section class="sections sec_pack">
-        <h3 class="tit">패키지 & 프로모션</h3>
-        <p class="txt">
-          휴양과 다이닝, 문화생활이 결합된 다채로운 숙박 패키지로 도심 속 색다른 즐거움이 당신을 찾아옵니다. 특별한 혜택으로 가족과 친구, 연인, 때로는 나만을 위한 선물 같은 하루를 만나보시기 바랍니다.
-        </p>
-        <a href="#"><img src="img/main_pack.png" alt="패키지&프로모션" /></a>
-      </section>
-      <section class="sec_facil">
-        <h3 class="tit">부대시설</h3>
-        <p class="txt">
-          안전하고 건강한 비리디안 휴 호텔만의 완벽한 치휴(治休), 이국적 분위기의 실내/외 워터스파 ’씨메르’와 환상적 실내형 테마파크 ‘원더박스’의 힐링과 재미,호캉스에서 빠질 수 없는 미식의 즐거움
-          프리미엄 뷔페 ‘온더플레이트’에서의 조식까지 완벽한 즐거움을 선사합니다.
-        </p>
-        <a href="#"><img src="img/main_facil.png" alt="부대시설" /></a>
-      </section>
-      <section class="sections sec_member">
-        <h3 class="tit">멤버십</h3>
-        <p class="txt">
-          트레비 클럽으로 귀하를 정중히 모십니다 트레비 클럽은 삶의 풍요를 추구하는 고품격 멤버십 클럽입니다. 비리디안 휴 호텔의 편안한 객실과 레스토랑에서 격조 높은 최상의 서비스를 경험해보시길
-          바랍니다.
-        </p>
-        <a href="#"><img src="img/main_membership.png" alt="멤버십" /></a>
-      </section>
+
       <footer>
         <ul class="f_legal">
           <li>고객문의</li>
