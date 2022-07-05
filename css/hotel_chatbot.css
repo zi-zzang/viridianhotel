@@ -1,0 +1,109 @@
+.chatbotbox {
+  background-color: #fff;
+  margin: 0 15px;
+  border-radius: 20px;
+}
+.chatbotbox .titbox {
+  background-color: #155110;
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  padding: 8px 0;
+}
+.chatbotbox .titbox h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.chatbotbox .titbox p {
+  font-size: 12px;
+}
+.chatbotbox .titbox button.close2 {
+  background-image: url(../img/아이콘원본/btn_close2.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.chatbotbox .friend {
+  text-align: left;
+  padding: 0 17px;
+}
+.chatbotbox .namebox {
+  position: relative;
+}
+.chatbotbox .namebox i.icon_chatbot {
+  background-image: url(../img/아이콘원본/chatbot_logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.chatbotbox .friend h3 {
+  padding: 10px 0 20px 35px;
+}
+.chatbotbox .friend .con-friend {
+  width: 70%;
+  background-color: #f3eadb;
+  border-radius: 20px;
+  padding: 20px;
+}
+.chatbotbox .friend .con-friend p {
+  line-height: 1;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.chatbotbox .friend .con-friend a {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  margin: 7px 0;
+  border-radius: 5px;
+}
+.chatbotbox .me {
+  text-align: right;
+  padding: 20px;
+}
+.chatbotbox .me p {
+  border-radius: 10px;
+  background-color: #f3eadb;
+  display: inline-block;
+  padding: 5px;
+  width: 40%;
+  text-align: center;
+}
+.chatbotbox .sendbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+.chatbotbox .sendbox button.btn_plus {
+  background-image: url(../img/아이콘원본/btn_square_plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 19px;
+  text-indent: -9999px;
+  margin: 0 9px;
+  margin-top: 8px;
+}
+.chatbotbox .sendbox input {
+  border-radius: 10px;
+  width: 100%;
+}
+.chatbotbox .sendbox button.send {
+  background-image: url(../img/아이콘원본/btn_up.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 27px;
+  height: 24px;
+  text-indent: -9999px;
+  margin: 0 9px;
+  margin-top: 8px;
+}

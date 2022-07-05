@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_145" data-name="그룹 145" transform="translate(-345 -47)">
+    <g id="calendar-check" transform="translate(345.684 47)">
+      <path id="패스_397" data-name="패스 397" d="M22.184,16.017a.916.916,0,0,1,0,1.3l-5.5,5.5a.916.916,0,0,1-1.3,0l-2.748-2.748a.917.917,0,1,1,1.3-1.3l2.1,2.1,4.849-4.85a.916.916,0,0,1,1.3,0Z" transform="translate(-2.297 -2.924)" fill="#4e4e4e" fill-rule="evenodd"/>
+      <path id="패스_398" data-name="패스 398" d="M1.832,7.747V26.07A1.832,1.832,0,0,0,3.665,27.9H25.652a1.832,1.832,0,0,0,1.832-1.832V7.747Zm1.832-5.5A3.665,3.665,0,0,0,0,5.915V26.07a3.665,3.665,0,0,0,3.665,3.665H25.652a3.665,3.665,0,0,0,3.665-3.665V5.915A3.665,3.665,0,0,0,25.652,2.25Z" transform="translate(0 -0.418)" fill="#4e4e4e" fill-rule="evenodd"/>
+      <path id="패스_399" data-name="패스 399" d="M7.666,0a.916.916,0,0,1,.916.916v.916a.916.916,0,1,1-1.832,0V.916A.916.916,0,0,1,7.666,0ZM24.157,0a.916.916,0,0,1,.916.916v.916a.916.916,0,1,1-1.832,0V.916A.916.916,0,0,1,24.157,0Z" transform="translate(-1.253)" fill="#4e4e4e" fill-rule="evenodd"/>
+    </g>
+    <rect id="사각형_160" data-name="사각형 160" width="30" height="30" transform="translate(345 47)" fill="none"/>
+  </g>
+</svg>

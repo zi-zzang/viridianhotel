@@ -1,0 +1,109 @@
+.wrap {
+  min-width: 360px;
+  max-width: 480px;
+
+  margin: auto;
+  text-align: center;
+  background-color: #f3eadb;
+  position: relative;
+}
+.bgico {
+  background-image: url(../img/스프라이트이미지.png);
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #d3ccbf;
+  color: #414141;
+  font-size: 12px;
+  padding: 0 16px;
+}
+footer ul.f_legal {
+  display: flex;
+  justify-content: space-around;
+}
+footer ul.f_legal li {
+  position: relative;
+}
+footer ul.f_legal li::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #707070;
+  position: absolute;
+  top: 4px;
+  left: -48px;
+}
+footer ul.f_legal li:first-child::after {
+  display: none;
+}
+footer .f_menu li {
+  border: 1px solid #707070;
+  display: inline-block;
+  width: 172px;
+  height: 20px;
+  margin: 8px;
+  margin-top: 16px;
+}
+footer .add {
+  font-size: 12px;
+}
+footer .sns {
+  display: flex;
+  justify-content: right;
+}
+
+footer .sns li a {
+  background-position: -153px -225px;
+  width: 20px;
+  height: 21px;
+  text-indent: -9999px;
+  margin: 10px 13px 17px 13px;
+}
+footer .sns li a.fa {
+  width: 12px;
+}
+footer .sns li a.in {
+  background-position-x: -188px;
+}
+footer .sns li a.tw {
+  background-position-x: -233px;
+}
+
+.n_footer {
+  background-color: transparent;
+}
+.n_footer .call {
+  background-color: #e5dfce;
+  width: 148px;
+  height: 34px;
+  margin: auto;
+  line-height: 2.8;
+  margin-bottom: 13px;
+  font-size: 12px;
+}
+.n_footer ul.language {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3ccbf;
+  padding: 5px 12px;
+  color: #000;
+  font-size: 15px;
+}
+.n_footer ul.language li {
+  position: relative;
+}
+.n_footer ul.language li::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 15px;
+  background-color: #000;
+  position: absolute;
+  top: 5px;
+  left: -22px;
+}
+.n_footer ul.language li:first-child::after {
+  display: none;
+}
