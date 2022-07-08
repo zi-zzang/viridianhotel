@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viridian Hue Hotel</title>
-    <link rel="stylesheet" href="css/hotel_header.css" />
+    <link rel="stylesheet" href="css/hotel_header2.css" />
     <link rel="stylesheet" href="css/hotel_footer.css" />
-    <link rel="stylesheet" href="css/hotel_main.css" />
+    <link rel="stylesheet" href="css/hotel_roomselect.css" />
     <link rel="stylesheet" href="css/hotel_reset.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script/main.js"></script>
@@ -18,8 +18,8 @@
         <h1>
           <a href="index.html" class="main_logo bgico">로고</a>
         </h1>
+        <button class="btn_reserv bgico" onclick="window.history.back()">뒤로가기</button>
         <button class="all_menu_show bgico">전체메뉴</button>
-        <a href="reservation.html" class="btn_reserv bgico">예약</a>
       </header>
       <div class="navbox">
         <div class="n_header">
@@ -98,72 +98,93 @@
         </div>
         <div class="blackbox"></div>
       </div>
-      <div class="sectionbox">
-        <section class="sec_reservation">
-          <img src="img/main_bg.png" alt="메인배경" />
-          <h2>빠른 예약</h2>
-          <form action="#">
-            <div class="in">
-              <label for="checkin">체크인</label>
-              <input type="date" name="checkin" id="checkin" />
+      <h3 class="roomtit">객실 선택</h3>
+      <section class="sec1">
+        <h3 class="hide">객실</h3>
+        <div class="date">
+          <p>2022.07.01 금 - 2022.07.03 일</p>
+          <p>2박</p>
+        </div>
+        <p>성인 2</p>
+      </section>
+      <section class="sec2">
+        <h3 class="hide">객실정보</h3>
+        <div class="selectbox">
+          <div class="roomimg">
+            <a href="roomoption.html"><img src="img/room1.png" alt="Viridian 패키지" /></a>
+            <i class="heart"></i>
+          </div>
+          <div class="roomtxt">
+            <div class="txt">
+              <p>Viridian 패키지</p>
+              <p>연중 예약 가능</p>
+              <p>KRW 300,000~</p>
+              <p>1박 / 세금별도</p>
             </div>
-            <div class="out">
-              <label for="checkout">체크아웃</label>
-              <input type="date" name="checkout" id="checkout" />
-            </div>
-          </form>
-          <span class="hide">몇박?</span>
-          <h3>객실</h3>
-          <div class="roomage">
-            <div class="room_adult">
-              <p>성인</p>
-              <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
-              <input class="client" type="number" placeholder="0" />
-              <button class="b_control bplus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
-            </div>
-            <div class="room_children">
-              <p>어린이</p>
-              <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
-              <input class="client" type="number" placeholder="0" disabled />
-              <button class="b_control bplus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
-            </div>
-            <div class="room_baby">
-              <p>유아</p>
-              <button class="b_control bminus"><img src="img/아이콘원본/btn_minus.png" alt="감소" class="btn_minus" /></button>
-              <input class="client" type="number" placeholder="0" disabled />
-              <button class="b_control bminus"><img src="img/아이콘원본/btn_plus.png" alt="추가" class="btn_plus" /></button>
-              <button class="b_control bplus"><img src="img/아이콘원본/btn_question.png" alt="모달" class="btn_modal" /></button>
-              <p class="modal_txt">36개월 이하</p>
+            <div class="detail">
+              <p><u>세부 정보</u></p>
             </div>
           </div>
-          <button class="room_search" onclick="location.href = 'roomselect.html'">객실검색</button>
-          <a href="chatbot.html" class="chatbot bgico">챗봇</a>
-        </section>
-        <section class="sections sec_pack">
-          <h3 class="tit">패키지 & 프로모션</h3>
-          <p class="txt">
-            휴양과 다이닝, 문화생활이 결합된 다채로운 숙박 패키지로 도심 속 색다른 즐거움이 당신을 찾아옵니다. 특별한 혜택으로 가족과 친구, 연인, 때로는 나만을 위한 선물 같은 하루를 만나보시기
-            바랍니다.
+        </div>
+      </section>
+      <section class="sec3">
+        <h3 class="hide">객실정보</h3>
+        <div class="roomimg">
+          <a href="roomoption.html"><img src="img/room3.png" alt="비즈니스 디럭스" /></a>
+          <i class="heart"></i>
+        </div>
+        <div class="roomtxt">
+          <div class="txt">
+            <p>Viridian 패키지</p>
+            <p>연중 예약 가능</p>
+            <p>KRW 300,000~</p>
+            <p>1박 / 세금별도</p>
+          </div>
+          <div class="detail">
+            <p><u>세부 정보</u></p>
+            <div class="detailbox">
+              <div class="roominfo">
+                <p class="r_tit">객실 정보</p>
+                <p class="r_txt">
+                  투숙인원 2명<br />
+                  전망 시티뷰<br />
+                  객실면적 50㎡<br />
+                  체크인/체크아웃 15:00/11:00
+                </p>
+                <p class="r_tit">어메니티</p>
+                <button class="close">닫기</button>
+                <div class="r_txt">
+                  <p>일반</p>
+                  <p>
+                    55" HD TV / 60"HD TV / 미니바 / 티포트 / 금고/<br />
+                    사무용 데스크 (문구류 포함) / 전화기 / 체중계 / 우산 / 구둣주걱
+                  </p>
+                </div>
+                <div class="r_txt">
+                  <p>욕실</p>
+                  <p>세면대 2개 / 면도기 / 면봉 / 비데 / 샤워 캡 / 슬리퍼 /<br />욕실용품 (Diptyque) / 욕조 / 목욕 가운 / 헤어드라이어 / 1회용 칫솔 및 치약</p>
+                </div>
+                <div class="r_txt">
+                  <p>기타</p>
+                  <p>
+                    케이블 위성 TV 채널 / 무료 생수 1일 2병 / 커피 및 티 메이커 /<br />
+                    무료 일간 신문 / 옷솔 / 무료 다림질 서비스 (1일 2점)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="favoritebox">
+          <p class="favorite">찜 하신 상품을 비교함에 담았습니다. <br /><a href="compare.html" class="direct">비교함 가기</a></p>
+
+          <p class="favorite_delete">
+            찜 하신 상품을 비교함에서 삭제했습니다. <br />
+            <a href="compare.html" class="direct">비교함 가기</a>
           </p>
-          <a href="#"><img src="img/main_pack.png" alt="패키지&프로모션" /></a>
-        </section>
-        <section class="sec_facil">
-          <h3 class="tit">부대시설</h3>
-          <p class="txt">
-            안전하고 건강한 비리디안 휴 호텔만의 완벽한 치휴(治休), 이국적 분위기의 실내/외 워터스파 ’씨메르’와 환상적 실내형 테마파크 ‘원더박스’의 힐링과 재미,호캉스에서 빠질 수 없는 미식의 즐거움
-            프리미엄 뷔페 ‘온더플레이트’에서의 조식까지 완벽한 즐거움을 선사합니다.
-          </p>
-          <a href="#"><img src="img/main_facil.png" alt="부대시설" /></a>
-        </section>
-        <section class="sections sec_member">
-          <h3 class="tit">멤버십</h3>
-          <p class="txt">
-            트레비 클럽으로 귀하를 정중히 모십니다.<br />트레비 클럽은 삶의 풍요를 추구하는 고품격 멤버십 클럽입니다. 비리디안 휴 호텔의 편안한 객실과 레스토랑에서 격조 높은 최상의 서비스를
-            경험해보시길 바랍니다.
-          </p>
-          <a href="#"><img src="img/main_membership.png" alt="멤버십" /></a>
-        </section>
-      </div>
+        </div>
+      </section>
       <footer>
         <ul class="f_legal">
           <li>고객문의</li>

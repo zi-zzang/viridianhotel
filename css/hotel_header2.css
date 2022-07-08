@@ -20,7 +20,7 @@ header.c_header {
   width: 100%;
   height: 101px;
   display: flex;
-  z-index: 20;
+  z-index: 10;
   background-color: #f3eadb;
 }
 header.c_header h1 a {
@@ -33,8 +33,8 @@ header.c_header h1 a {
   top: 15px;
   left: 39%;
 }
-header .all_menu_show {
-  background-image: url(../img/아이콘원본/btn_menu.svg);
+header .btn_reserv {
+  background-image: url(../img/아이콘원본/btn_back.svg);
   width: 30px;
   height: 30px;
   position: absolute;
@@ -42,8 +42,8 @@ header .all_menu_show {
   left: 15px;
   text-indent: -9999px;
 }
-header .btn_reserv {
-  background-image: url(../img/아이콘원본/btn_reservation.svg);
+header .all_menu_show {
+  background-image: url(../img/아이콘원본/btn_menu.svg);
   text-indent: -9999px;
   width: 30px;
   height: 30px;
@@ -62,7 +62,7 @@ header .btn_reserv {
   background-color: #f3eadb;
   top: 0;
   left: -100%;
-  z-index: 30;
+  z-index: 10;
   /* display: none; */
 }
 .n_header {

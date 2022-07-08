@@ -1,3 +1,6 @@
+.sectionbox {
+  padding-top: 101px;
+}
 section {
   margin: 16px;
 }
@@ -78,6 +81,7 @@ button.room_search {
   height: 41px;
   margin-top: 30px;
   margin-bottom: 127px;
+  font-size: 18px;
 }
 .chatbot {
   position: fixed;

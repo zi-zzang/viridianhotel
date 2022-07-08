@@ -3,6 +3,7 @@ section {
 }
 section.sec_reservation {
   position: relative;
+  padding-top: 50px;
 }
 section.sec_reservation form {
   display: flex;
